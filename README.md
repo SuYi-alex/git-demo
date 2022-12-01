@@ -254,7 +254,7 @@ git rebase 要变基到分支分支（例如：git rebase master）
 ```
 
 ```bash
-  2.git pull //从远程库拉取代码，并自动合并
+  2.git pull #从远程库拉取代码，并自动合并
 
 ```
 
