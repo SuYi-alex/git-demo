@@ -248,9 +248,9 @@ git rebase 要变基到分支分支（例如：git rebase master）
 - 同步拉取
 
 ```bash
-  1.git fetch //fetch 他会从远程仓库下载所有代码，但是他不会将代码和当前分支自动合并
-  使用 fetch 拉取代码后，必须手动进行合并
-  git merge origin/master //合并远程分支到当前分支
+  1.git fetch #fetch 他会从远程仓库下载所有代码，但是他不会将代码和当前分支自动合并
+  #使用 fetch 拉取代码后，必须手动进行合并
+  git merge origin/master #合并远程分支到当前分支
 ```
 
 ```bash
