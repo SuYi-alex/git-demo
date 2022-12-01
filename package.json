@@ -1,0 +1,11 @@
+{
+  "name": "git-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/SuYi-alex/git-demo.git",
+  "author": "faker <N18989364491@163.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
