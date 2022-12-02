@@ -300,3 +300,28 @@ git rebase 要变基到分支分支（例如：git rebase master）
   git tag -d <标签名>
   git push origin --delete <标签名> # 删除远程仓库标签
 ```
+
+### github 部署静态页面
+
+- 在 github 中，可以将自己的静态页面直接部署到 github 上，他会给我们提供一个地址使得我们的页面变成一个真正的网站，可以供用户访问
+
+- 要求：
+  - 静态页面的分支必须叫做：gh-pages
+  - 如果希望页面可以通过 xxxx.github.io 访问，则需要将库的名字配置为 xxxx.github.io
+
+### docusaurus
+
+- facebook 推出的开源的静态内容管理系统，通过它可以快速部署一个静态网站
+- 使用
+  - 网址
+    - https://www.docusaurus.cn/
+  - 安装
+    - npx create-docusaurus@latest my-website classic
+  - 启动项目
+    - npm start 或 yarn start
+  - 构建项目
+    - npm run build 或 yarn build
+  - 配置项目
+    - docusaurus.config.js:项目配置文件
+  - 添加页面
+    - 在 docusaurus 框架中，页面分为三种：1.page，2.blog，3.doc
